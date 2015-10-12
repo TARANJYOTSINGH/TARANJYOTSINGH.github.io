@@ -2,6 +2,9 @@ CACHE MANIFEST
 jquery-1.4.min.js
 index.html
 offline.js
+offline.css
+default-offline.css
+styles.css
 
 NETWORK:
 /
