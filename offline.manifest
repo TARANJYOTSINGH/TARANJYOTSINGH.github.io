@@ -7,4 +7,10 @@ default-offline.css
 styles.css
 
 NETWORK:
-/
+*
+
+SETTINGS:
+prefer-online
+
+FALLBACK:
+/index.html /offline.html
