@@ -12,4 +12,4 @@ SETTINGS:
 prefer-online
 
 FALLBACK:
-/*html /fallback.html
+/*html /offline.html
