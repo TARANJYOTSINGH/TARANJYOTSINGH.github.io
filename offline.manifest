@@ -6,10 +6,11 @@ default-offline.css
 styles.css
 
 NETWORK:
+favicon.ico
 *
 
 SETTINGS:
 prefer-online
 
 FALLBACK:
-/index2.html /offline.html
+/  offline.html
