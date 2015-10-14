@@ -9,6 +9,24 @@
 <link rel="stylesheet" type="text/css" media="all" href="default-offline.css" />
 <meta content="width=device-width, initial-scale=1.0" name="viewport">
 <script type="text/javascript" src="offline.js"></script>
+<script>
+
+	Offline.options = {
+		game: false,
+		checks: {
+			image: {
+				url: 'http://taranjyotsingh.github.io/images/Mushroom2.png'
+			}
+		}
+	}
+
+	var run = function(){
+	  if (Offline.state === 'up')
+		Offline.check();
+	}
+	setInterval(run, 5000);
+
+</script>
 </head>
 <body>
 
@@ -41,14 +59,7 @@
 <p>For more information, refer to the SitePoint article <a href="http://www.sitepoint.com/blogs/offline-web-application-tutorial"><em>How To Create an Offline Web Application</em></a> by <a href="http://www.sitepoint.com/articlelist/560/show-all-blogs/">Craig Buckler</a>.</p>
 
 
-<script type="text/javascript">
-Offline.options = {checks: {image: {url: 'images/Mushroom2.png'}, active: 'image'}}
-	var run = function(){
- if (Offline.state === 'up')
- Offline.check();
- }
- setInterval(run, 5000);
-</script>
+
 <script type="text/javascript" src="jquery-1.4.min.js"></script>
 
 
