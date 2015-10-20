@@ -9,4 +9,4 @@ NETWORK:
 *
 
 FALLBACK:
-/localstorage-cache/ fallback.html
+/ /fallback.html
